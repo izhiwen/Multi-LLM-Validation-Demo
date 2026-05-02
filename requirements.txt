@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+
+# Provider SDKs (only required to actually run multi_llm_scoring.py;
+# correlation_analysis.py only needs pandas / numpy / matplotlib / seaborn).
+openai>=1.40           # ChatGPT, Qwen (via DashScope-compatible endpoint), DeepSeek
+google-generativeai>=0.7   # Gemini
+anthropic>=0.34        # Claude
