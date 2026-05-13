@@ -76,6 +76,21 @@ To reuse it on a different measurement task:
   part of **AIER OS** (AI Econ Research Operating System), my private
   multi-agent research platform.
 
+## Related: AiEconLab (the methodology, codified)
+
+This repo is the worked-example of a validity protocol. The protocol
+itself — multi-model panel design, hand-coded subsample sizing, held-out
+test sets, prompt versioning, drift detection — is owned by the
+**LLM-as-Measurement Specialist** persona in
+[**AiEconLab (AEL)**](https://github.com/izhiwen/AiEconLab), my public
+applied-economics research agent team. AEL's `core/templates/personas/
+llm-measurement.md` contains the full persona (~10K, with 5 worked
+examples including one drawn from the Treaty Ports paper).
+
+If you want to apply this validity backbone to your own
+LLM-as-measurement work, the AEL persona is the methodological
+reference; this repo is the executable instance.
+
 ## License
 
 MIT. See `LICENSE`.
